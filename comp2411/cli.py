@@ -11,4 +11,4 @@ def demo():
     cleaning activities of the campus. As long as the CMMS is concerned, this administrator works
     like a DBA, but that person is not a worker or manager described in the database.
     """
-    typer.echo("TBD")
+    typer.echo("Hello world")
