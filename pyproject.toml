@@ -4,11 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "typer>=0.20.0",
-]
+dependencies = ["typer>=0.20.0"]
+
+[project.scripts]
+cli = "comp2411.cli:app"
 
 [dependency-groups]
-dev = [
-    "pytest>=9.0.1",
-]
+dev = ["pytest>=9.0.1"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
