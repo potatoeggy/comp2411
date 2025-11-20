@@ -1,3 +1,5 @@
+# this is the interface to the app
+
 import typer
 
 app = typer.Typer()
